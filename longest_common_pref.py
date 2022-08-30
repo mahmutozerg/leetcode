@@ -1,9 +1,8 @@
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         temp = strs[0]
-        a = 2
         temp2 = ""
-        while a:
+        while True:
             for j in strs:
                 if temp not in j[0:len(temp)]:
                     temp = temp[:-1]
