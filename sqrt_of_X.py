@@ -4,7 +4,7 @@ class Solution:
         left = 1
         middle = upper/2
         res = middle*middle
-        if x>0 and x<=4:
+        if x>0 and x<4:
             return 1
         elif x == 0:
             return 0
